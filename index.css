@@ -58,29 +58,26 @@ list-style-type: none;
 	font-size: 0.8em;
 
 }
-
-
+.rk img{
+	padding-left: px;
+	padding-right: px;
+}
 .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 #myNavbar{
 	margin-top: 10px;
 }
-
 #myNavbar a{
 	color: #951c49;
 	text-align: center;
 	font-size: 20px;
-	padding-bottom: 10px;
-
+	padding-bottom: 10}px;
 }
 #myNavbar a span{
 	font-size: 30px;
 	padding-right: 10px;
-	padding-left: 10px;
-
 
 }#myNavbar a:hover {
 background:#E7E7E7;
@@ -135,7 +132,6 @@ ul.nav.navbar-nav.navbar-right{
 #menu-tile, #specials-tile,#map-tile{
 	height: 250px;
 
-
 	margin-bottom: 15px;
 	margin-top: 15px;
 	position: relative;
@@ -145,22 +141,7 @@ ul.nav.navbar-nav.navbar-right{
 #menu-tile:hover,#specials-tile:hover,#map-tile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile{
-	background-image: url(https://rutujachachane.github.io/menu.jpg);
-	background-position: center;
 
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#specials-tile{
-	background-image: url(https://rutujachachane.github.io/special.jpg);
-	background-position: center;
-
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
 #menu-tile span, #specials-tile span ,#map-tile span{
 	position: absolute;
 	bottom: 0;
@@ -185,7 +166,7 @@ ul.nav.navbar-nav.navbar-right{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
  .jumbotron{
- 	background-image: url(https://rutujachachane.github.io/1200.jpg);
+ 	background-image: url(1200.jpg);
  	height: 675px;
  	box-shadow: 0 0 50px #3F0C1C;
  	border: 2px solid #3f0C1F;
@@ -202,15 +183,7 @@ ul.nav.navbar-nav.navbar-right{
 div.container{
 	padding: 0px;
 }
-#menu-tile, #specials-tile{
-	margin-left: 37px;
-	
-	width: 350px;
-}
-#map-tile{
-	margin-left: 40px;
-	width: 340px;
-}
+
  #hours, #address, #testimonials{
 		margin-left: 38px;
 	    width: 350px;
@@ -221,14 +194,14 @@ div.container{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px){
 	.jumbotron{
-	background-image: url(https://rutujachachane.github.io/992.jpg);
+	background-image: url(992.jpg);
  height: 558px;
 box-shadow: 0 0 50px #3F0C1C;
  	border: 2px solid #3f0C1F;
  	margin-left: 50px;
  }
    .ml {
-    background: url('https://rutujachachane.github.io/medium.png') no-repeat;
+    background: url('medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -241,15 +214,7 @@ box-shadow: 0 0 50px #3F0C1C;
 div.container{
 	padding: 0px;
 }
-#menu-tile, #specials-tile{
-	margin-left: 40px;
-	
-	width: 300px;
-}
-#map-tile{
-	margin-left: 40px;
-	width: 280px;
-}
+
  #hours, #address, #testimonials{
 	
 	  padding-left: 70px;
@@ -276,6 +241,7 @@ box-shadow: 0 0 50px #3F0C1C;
 nav.navbar.navbar-inverse{
 	height: 160px;
 }
+
 
 
 }
@@ -306,10 +272,8 @@ nav.navbar.navbar-inverse{
     color: #951c49;
 
 }
-
-#menu-tile, #specials-tile,#map-tile{
-	margin-right: 50px;
-	margin-left: 50px;
+div#main-content.container{
+width: 400px;
 }
 div.row{
 	text-align: center;
@@ -321,4 +285,5 @@ div.row{
   h1{
   		font-size: 20px;
   	}
+
   }
