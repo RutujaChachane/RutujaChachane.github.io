@@ -1,289 +1,144 @@
-body{
-	font-size: 16px;
-	background-color: #61122f;
-    font-family: 'Oxygen',sans-serif;
-    margin: 0;
-    padding: 0;
-}
-h1{
-font-family: 'Lora', serif;
-    color: #557c3e;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    text-decoration: none;
-    padding-top: 25px;
-    padding-left: 0px;
-    border-right-width: 15px;
-    padding-bottom: 15px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE-edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>David chu's china Bistro</title>
+ <link rel="stylesheet" type="text/css" href="C:\R.html\bootstrap-3.4.1-dist\css\bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="menu.css">
+ <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+ <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-nav.navbar.navbar-inverse{
-	background-color: #f6b319;
-	border-radius: 0;
-	border: 0;
-	text-decoration: none;
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      
+      <ul>
+         <li class="ml"><img src="large.png" class="img-responsive hidden-xs hidden-sm hidden-md" align="left"></li>
+          <li class="rk">
+         <a href="hotel.html"><h1 class="">David chu's china Bistro</h1></a>
+         <img src="7.png"><span>Kosher Certified</span></li>
+      </ul>
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"  aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+  </div>  
+          <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav navbar-right">
+         
+            <li><a href="hotel.html"><span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Home</a></li>
+                 <li><a href="#"><span class="glyphicon glyphicon-cutlery "></span><br class="hidden-xs">Menu</a></li>
+        
+                 <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a></li>
+        
+               
+                 <li id="phone" class="hidden-xs">
+              <a href="tel:7620711495">
+                <span>7620711495</span></a><div>* We Deliver</div>
+            </li>
+               </ul>
+                
+              </div> 
 
-	
-}
-.rk a{
-	text-decoration: none;
-}
-.rk{
-	float: left;
-}
-ul li.rk{
-list-style-type: none;
-}
-.ml {
-	float:left;
-	list-style-type: none;
-	margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-}
+</nav>
+ <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:7620711465">
+    <span class="glyphicon glyphicon-earphone"></span>
+    7620711495
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+   </div>
+<div id="main-content" class="container">
+	<h2 id="Menu-categories-title" class="text-center"><font color="white">Special Categoroes</font></h2>
+	<div class="text-center"><font color="white">
+		Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.</font>
+	</div>
+<div class="container">
+<div id="home-tiles" class="row"></div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+   <a href="#"><div id="menu-tile"><img src="06.webp" width="360" height="250"><span>Braised Pork</span></div></a>
+   </div>
 
+    <div class="col-md-4 col-sm-6 col-xs-12">
+           
+      <a href="#"><div id="specials-tile"><img src="07.webp" width="360" height="250"><span>Chow Mein</span></div></a>
+  </div>
+    <div class="col-md-4 col-sm-12 col-xs-12 hidden-sm">
+      <a href="#">
+        <div id="map-tile"> <img src="08.webp" width="390" height="250"><span>Peking Roasted Duck</span></div>
+      </a>
+ </div>
+</div>  
+<div class="container">
+<div id="home-tiles" class="row"></div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+   <a href="#"><div id="menu-tile"><img src="A4.jpg" width="360" height="250"><span>soup</span></div></a>
+   </div>
 
+    <div class="col-md-4 col-sm-6 col-xs-12">
+           
+      <a href="#"><div id="specials-tile"><img src="01.webp" width="360" height="250"><span>noddles</span></div></a>
+  </div>
+    <div class="col-md-4 col-sm-12 col-xs-12 hidden-sm">
+      <a href="#">
+        <div id="map-tile"><span><img src="02.webp" width="360" height="250">chinese</span></div>
+      </a>
+ </div>
+</div>  
+<div class="container">
+<div id="home-tiles" class="row"></div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+   <a href="#"><div id="menu-tile"><img src="03.jpg" width="360" height="250"><span>tofu with rice</span></div></a>
+   </div>
 
-
-}
-.rk span{
-	color: #000;
-	text-transform: uppercase;
-	vertical-align: middle;
-	font-size: 0.8em;
-
-}
-.rk img{
-	padding-left: px;
-	padding-right: px;
-}
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-#myNavbar{
-	margin-top: 10px;
-}
-#myNavbar a{
-	color: #951c49;
-	text-align: center;
-	font-size: 20px;
-	padding-bottom: 10}px;
-}
-#myNavbar a span{
-	font-size: 30px;
-	padding-right: 10px;
-
-}#myNavbar a:hover {
-background:#E7E7E7;
-}
-
-.navbar-header img{
-	float: left;
-}
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
-#myNavbar p1{
-color: #951c49;
-	text-align: center;
-	text-align: right;
-	padding-bottom: 10px;
-	padding-top: 18px;
-	font-size: 20px;
-}
-#myNavbar p2{
-	padding-top: 50px;
-}
-
-li#mk{
-	color:#557c3e;
-	text-align: right;
-	padding-right: 10px;
-	padding-left: 20px;
-	font-weight: bold;
-}
-ul#myNavbar.nav.navbar-nav.navbar-right{
-	background-color: #f6b319;	
-
-}
-button.navbar-toggle{
-	margin-top: 0px;
-}
-ul.nav.navbar-nav.navbar-right{
-	float right;
-	}
-
-#menu-tile, #specials-tile,#map-tile{
-	height: 250px;
-
-	margin-bottom: 15px;
-	margin-top: 15px;
-	position: relative;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-}
-#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
-	box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#menu-tile span, #specials-tile span ,#map-tile span{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 1.6em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .8;
-}
-.panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    background-color: #222;
-    border-top: 0;
-    color: white;
-
-}
-/********** Large devices only **********/
-@media (min-width: 1200px) {
- .jumbotron{
- 	background-image: url(1200.jpg);
- 	height: 675px;
- 	box-shadow: 0 0 50px #3F0C1C;
- 	border: 2px solid #3f0C1F;
- 	width:1140;
- 	padding: 20px;
- 	 margin-left: 50px;
- }
-
-ul.nav.navbar-nav.navbar-right{
-	float right;
-
-	
-}
-div.container{
-	padding: 0px;
-}
-
- #hours, #address, #testimonials{
-		margin-left: 38px;
-	    width: 350px;
-	        padding-left: 40px
-}
-
-}
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px){
-	.jumbotron{
-	background-image: url(992.jpg);
- height: 558px;
-box-shadow: 0 0 50px #3F0C1C;
- 	border: 2px solid #3f0C1F;
- 	margin-left: 50px;
- }
-   .ml {
-    background: url('medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-   
-  }
- .navbar-header{
-	padding: 0px;
-	margin: 0px;
-}
-div.container{
-	padding: 0px;
-}
-
- #hours, #address, #testimonials{
-	
-	  padding-left: 70px;
-}
+    <div class="col-md-4 col-sm-6 col-xs-12">
+           
+      <a href="#"><div id="specials-tile"><span><img src="04.webp" width="345" height="250">veggies</span></div></a>
+  </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 hidden-sm">
+      <a href="#">
+        <div id="map-tile"><span><img src="05.webp" width="345" height="250">chicken satay</span></div>
+      </a>
+ </div>
+</div>  
 
 
-}
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px){
-.jumbotron{
-	background-image: url(768.jpg);
- 	height: 432px;
-box-shadow: 0 0 50px #3F0C1C;
- 	border: 2px solid #3f0C1F;
- 	 	margin-left: 0px;
-}
-.rk img{
-	height: 20px;
-	width: 20px;
- }
- div.container{
-	padding: 0px;
-}
-nav.navbar.navbar-inverse{
-	height: 160px;
-}
+</div>
+ 
+    <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+    </div>
+  </footer>  
+</div>
 
-
-
-}
-/********** Extra small devices only **********/
-@media (max-width: 767px){
-.container .jumbotron, .container-fluid .jumbotron{
-	background-image:url(768.jpg); 
-	margin: 0;
- 	 padding-top: 0px;
-      padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    box-shadow: 0 0 50px #3F0C1C;
- 	border: 2px solid #3f0C1F;
-
-    }
-    .rk img{
-	height: 20px;
-	width: 20px;
- }
- #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-
-}
-div#main-content.container{
-width: 400px;
-}
-div.row{
-	text-align: center;
-		margin-right: 50px;
-	margin-left: 50px;
-}
-}
- @media (max-width: 479px) {
-  h1{
-  		font-size: 20px;
-  	}
-
-  }
+</body>
+</html>
