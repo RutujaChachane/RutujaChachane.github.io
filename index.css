@@ -46,10 +46,6 @@ list-style-type: none;
     margin-bottom: 10px;
     margin-right: 5px;
 }
-
-
-
-
 }
 .rk span{
 	color: #000;
@@ -141,7 +137,22 @@ ul.nav.navbar-nav.navbar-right{
 #menu-tile:hover,#specials-tile:hover,#map-tile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
+#menu-tile{
+	background-image: url(menu.jpg);
+	background-position: center;
 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#specials-tile{
+	background-image: url(special.jpg);
+	background-position: center;
+
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
 #menu-tile span, #specials-tile span ,#map-tile span{
 	position: absolute;
 	bottom: 0;
