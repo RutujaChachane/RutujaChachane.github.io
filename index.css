@@ -185,7 +185,7 @@ ul.nav.navbar-nav.navbar-right{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
  .jumbotron{
- 	background-image: url(1200.jpg);
+ 	background-image: url(https://rutujachachane.github.io/1200.jpg);
  	height: 675px;
  	box-shadow: 0 0 50px #3F0C1C;
  	border: 2px solid #3f0C1F;
@@ -221,7 +221,7 @@ div.container{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px){
 	.jumbotron{
-	background-image: url(992.jpg);
+	background-image: url(https://rutujachachane.github.io/992.jpg);
  height: 558px;
 box-shadow: 0 0 50px #3F0C1C;
  	border: 2px solid #3f0C1F;
